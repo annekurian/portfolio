@@ -20,6 +20,7 @@ const projects = [
     description:
       "Full-stack AI chatbot enabling real-time LLM-assisted conversational responses. Includes a GPT-powered review summarisation pipeline that reduces read-time for end users.",
     tags: ["React", "OpenAI API", "TypeScript", "Prompt Engineering"],
+    appUrl: "https://review-summarizer-client.vercel.app/",
     link: "https://github.com/annekurian/review-summarizer",
     linkLabel: "GitHub ↗",
     featured: true,
