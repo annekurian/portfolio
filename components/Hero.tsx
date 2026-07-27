@@ -68,7 +68,7 @@ export default function Hero() {
             View Projects
           </a>
           <a
-            href="/Anne_Kurian_Resume.pdf"
+            href="https://jrcdxlmnhq5drdrm.public.blob.vercel-storage.com/Anne_Kurian_Resume.pdf"
             download
             className="px-6 py-3 border border-gray-300 text-gray-700 text-[14px] tracking-wide rounded-full hover:border-gray-900 hover:text-gray-900 transition-colors"
           >

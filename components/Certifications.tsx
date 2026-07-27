@@ -2,6 +2,8 @@
 
 import { useEffect, useRef } from "react";
 
+const blobUrl = "https://jrcdxlmnhq5drdrm.public.blob.vercel-storage.com/certs";
+
 const certifications = [
   {
     title: "FullStack Development with AI",
@@ -18,7 +20,7 @@ const certifications = [
     date: "Apr 2026",
     badge: null,
     featured: false,
-    certLink: "certs/build-ai-powered-apps.pdf",
+    certLink: `${blobUrl}/build-ai-powered-apps.pdf`,
     courseLink: "https://codewithmosh.com/p/build-ai-powered-apps",
   },
   {
@@ -27,7 +29,7 @@ const certifications = [
     date: "Jun 2025",
     badge: null,
     featured: false,
-    certLink: "certs/AI-for-everyone-deep-learning.pdf",
+    certLink: `${blobUrl}/AI-for-everyone-deep-learning.pdf`,
     courseLink: null,
   },
   {
@@ -46,7 +48,7 @@ const certifications = [
     date: "June 2026",
     badge: null,
     featured: false,
-    certLink: "certs/ultimate-docker-course.pdf",
+    certLink: `${blobUrl}/ultimate-docker-course.pdf`,
     courseLink: "https://codewithmosh.com/p/the-ultimate-docker-course",
   },
   {
@@ -74,7 +76,7 @@ const certifications = [
     date: "Sep 2024",
     badge: null,
     featured: false,
-    certLink: "certs/foundational-C-with-microsoft.png",
+    certLink: `${blobUrl}/foundational-C-with-microsoft.png`,
     courseLink: null,
   },
   {
@@ -83,7 +85,7 @@ const certifications = [
     date: "Dec 2023",
     badge: null,
     featured: false,
-    certLink: "certs/ultimate-typeScript-course.pdf",
+    certLink: `${blobUrl}/ultimate-typeScript-course.pdf`,
     courseLink: "https://codewithmosh.com/p/the-ultimate-typescript",
   },
   {
@@ -92,7 +94,7 @@ const certifications = [
     date: "Jul 2023",
     badge: null,
     featured: false,
-    certLink: "certs/ultimate-redux-course.pdf",
+    certLink: `${blobUrl}/ultimate-redux-course.pdf`,
     courseLink: "https://codewithmosh.com/p/ultimate-redux",
   },
   {
@@ -101,7 +103,7 @@ const certifications = [
     date: "Jun 2023",
     badge: null,
     featured: false,
-    certLink: "certs/mastering-react.pdf",
+    certLink: `${blobUrl}/mastering-react.pdf`,
     courseLink: null,
   },
 ];
