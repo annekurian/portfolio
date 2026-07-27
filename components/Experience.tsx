@@ -28,7 +28,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Technology Analyst — End-to-End Testing',
+    title: 'Technology Analyst — Product Customization/Development',
     company: 'Infosys',
     location: 'India',
     period: 'Jul 2012 – Jul 2014',
