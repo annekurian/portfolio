@@ -40,7 +40,7 @@ export default function Hero() {
         </p>
 
         {/* Summary */}
-        <p className="text-[15px] text-gray-500 leading-relaxed mb-10 max-w-xl">
+        <p className=" text-gray-500 leading-relaxed mb-10 max-w-xl">
           14 years building enterprise-grade software across banking and
           technology. Specialising in React, TypeScript, and LLM-powered
           applications. Currently advancing through the NUS FullStack with AI
@@ -52,7 +52,7 @@ export default function Hero() {
           {tags.map((tag) => (
             <span
               key={tag}
-              className="text-[12px] px-3 py-1 border border-gray-200 text-gray-500 rounded-full"
+              className="text-[14px] px-3 py-1 border border-gray-200 text-gray-500 rounded-full"
             >
               {tag}
             </span>
@@ -63,20 +63,20 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4">
           <a
             href="#projects"
-            className="px-6 py-3 bg-gray-900 text-white text-[13px] tracking-wide rounded-full hover:bg-gray-700 transition-colors"
+            className="px-6 py-3 bg-gray-900 text-white text-[14px] tracking-wide rounded-full hover:bg-gray-700 transition-colors"
           >
             View Projects
           </a>
           <a
             href="/Anne_Kurian_Resume.pdf"
             download
-            className="px-6 py-3 border border-gray-300 text-gray-700 text-[13px] tracking-wide rounded-full hover:border-gray-900 hover:text-gray-900 transition-colors"
+            className="px-6 py-3 border border-gray-300 text-gray-700 text-[14px] tracking-wide rounded-full hover:border-gray-900 hover:text-gray-900 transition-colors"
           >
             Download CV
           </a>
           <a
             href="#contact"
-            className="px-6 py-3 text-gray-500 text-[13px] tracking-wide hover:text-gray-900 transition-colors"
+            className="px-6 py-3 text-gray-500 text-[14px] tracking-wide hover:text-gray-900 transition-colors"
           >
             Get in touch →
           </a>

@@ -100,14 +100,14 @@ export default function Projects() {
                     {project.title}
                   </a>
                   {project.featured && (
-                    <span className="text-[10px] tracking-wider uppercase px-2 py-0.5 bg-blue-50 text-blue-700 rounded-full shrink-0 mt-0.5">
+                    <span className="text-[12px] tracking-wider uppercase px-2 py-0.5 bg-blue-50 text-blue-700 rounded-full shrink-0 mt-0.5">
                       Featured
                     </span>
                   )}
                 </div>
 
                 {/* Stack subtitle */}
-                <p className="text-[12px] text-gray-400">{project.stack}</p>
+                <p className="text-[13px] text-gray-400">{project.stack}</p>
 
                 {/* Description */}
                 <p className="text-[13px] text-gray-500 leading-relaxed flex-1">
