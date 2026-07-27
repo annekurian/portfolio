@@ -110,7 +110,7 @@ export default function Projects() {
                 <p className="text-[13px] text-gray-400">{project.stack}</p>
 
                 {/* Description */}
-                <p className="text-[13px] text-gray-500 leading-relaxed flex-1">
+                <p className="text-[14px] text-gray-500 leading-relaxed flex-1">
                   {project.description}
                 </p>
 

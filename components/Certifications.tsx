@@ -156,8 +156,8 @@ export default function Certifications() {
                     </span>
                   )}
                 </div>
-                <p className="text-[13px] text-gray-500">{cert.issuer}</p>
-                <p className="text-[12px] text-gray-400 mt-1">{cert.date}</p>
+                <p className="text-[14px] text-gray-500">{cert.issuer}</p>
+                <p className="text-[13px] text-gray-400 mt-1">{cert.date}</p>
                 {/* Footer link */}
                 <div className="pt-3 border-t border-gray-100 flex justify-end gap-2">
                   {cert.certLink ? (
