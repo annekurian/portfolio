@@ -147,17 +147,17 @@ export default function Certifications() {
                 }`}
               >
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="text-[14px] font-medium text-gray-900 leading-snug">
+                  <h3 className="text-[16px] font-medium text-gray-900 leading-snug">
                     {cert.title}
                   </h3>
                   {cert.badge && (
-                    <span className="text-[10px] tracking-widest uppercase px-2 py-0.5 bg-gray-900 text-white rounded-full shrink-0 mt-0.5">
+                    <span className="text-[14px] tracking-widest uppercase px-2 py-0.5 bg-gray-900 text-white rounded-full shrink-0 mt-0.5">
                       {cert.badge}
                     </span>
                   )}
                 </div>
-                <p className="text-[12px] text-gray-500">{cert.issuer}</p>
-                <p className="text-[11px] text-gray-400 mt-1">{cert.date}</p>
+                <p className="text-[13px] text-gray-500">{cert.issuer}</p>
+                <p className="text-[12px] text-gray-400 mt-1">{cert.date}</p>
                 {/* Footer link */}
                 <div className="pt-3 border-t border-gray-100 flex justify-end gap-2">
                   {cert.certLink ? (
