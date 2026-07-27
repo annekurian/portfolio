@@ -127,7 +127,7 @@ export default function Experience() {
 
         {/* Total years */}
         <p className="mt-10 text-[12px] text-gray-400 tracking-wide">
-          14 years of continuous experience · 2008 – present
+          14 years of continuous experience · 2008 – 2022
         </p>
       </div>
     </section>
