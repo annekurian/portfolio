@@ -153,7 +153,7 @@ export default function Certifications() {
                     {cert.title}
                   </h3>
                   {cert.badge && (
-                    <span className="text-[14px] tracking-widest uppercase px-2 py-0.5 bg-gray-900 text-white rounded-full shrink-0 mt-0.5">
+                    <span className="text-[12px] tracking-widest uppercase px-2 py-0.5 bg-gray-900 text-white rounded-full shrink-0 mt-0.5">
                       {cert.badge}
                     </span>
                   )}
