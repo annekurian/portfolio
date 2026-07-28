@@ -13,19 +13,29 @@ const skillGroups = [
     ],
   },
   {
-    category: "Frontend",
+    category: "Frontend & Libraries",
     skills: [
       "React",
       "TypeScript",
       "JavaScript (ES5/ES6)",
-      "Next.js",
       "Tailwind CSS",
       "Bootstrap",
+      "Chart.js",
+      "Leaflet",
     ],
   },
   {
     category: "Backend & APIs",
-    skills: ["REST APIs", "WebSockets", "Node.js", "Groovy", "Python", "C#"],
+    skills: [
+      "REST APIs",
+      "WebSockets",
+      "Express",
+      "Flask",
+      "Node.js",
+      "Groovy",
+      "Python",
+      "C#",
+    ],
   },
   {
     category: "Cloud & DevOps",
@@ -33,17 +43,11 @@ const skillGroups = [
   },
   {
     category: "Databases & Tools",
-    skills: [
-      "PostgreSQL",
-      "Oracle SQL",
-      "pgAdmin",
-      "DataGrip",
-      "JIRA",
-      "Figma",
-      "Sketch",
-      "ChartJS",
-      "Leaflet",
-    ],
+    skills: ["PostgreSQL", "MySQL", "pgAdmin", "DataGrip", "JIRA"],
+  },
+  {
+    category: "Design Tools",
+    skills: ["Figma", "Sketch"],
   },
 ];
 
