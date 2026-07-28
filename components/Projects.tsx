@@ -31,6 +31,8 @@ const projects = [
     description:
       "Responsive real-time dashboards for field operations across underwater technology platforms, with live data via WebSockets and PostgreSQL-backed REST APIs.",
     tags: ["React", "TypeScript", "WebSockets", "AWS", "PostgreSQL"],
+    appUrl:
+      "https://jrcdxlmnhq5drdrm.public.blob.vercel-storage.com/overview_dashboard.png",
     link: null,
     linkLabel: "Subnero · 2018–2022",
     featured: false,
