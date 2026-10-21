@@ -20,9 +20,9 @@ export default function Hero() {
     >
       <div ref={ref} className="fade-up max-w-2xl">
         {/* Eyebrow */}
-        <p className="text-[13px] tracking-widest text-gray-400 uppercase mb-6">
+        {/* <p className="text-[13px] tracking-widest text-gray-400 uppercase mb-6">
           Available for new roles · Singapore & Remote
-        </p>
+        </p> */}
 
         {/* Name */}
         <h1
